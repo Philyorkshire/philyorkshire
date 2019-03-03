@@ -1,0 +1,24 @@
+@import "var/var";
+
+
+@import "breakpoints/base";
+
+@media only screen and (min-width: 481px) {
+	@import "breakpoints/481";
+}
+
+@media only screen and (min-width: 640px) {
+	@import "breakpoints/640";
+}
+
+@media only screen and (min-width: 768px) {
+	@import "breakpoints/768";
+}
+
+@media only screen and (min-width: 1024px) {
+	@import "breakpoints/1024";
+}
+
+@media only screen and (min-width: 1240px) {
+	@import "breakpoints/1240";
+}

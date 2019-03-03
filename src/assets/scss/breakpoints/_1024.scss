@@ -1,0 +1,213 @@
+// 1024 styles
+
+body {
+	//background-color: blue;
+}
+
+p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+ul, ol {
+	
+	li {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	
+}
+
+a {
+	
+	&.button {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+}
+
+.padded {
+	padding: 40px;
+}
+
+// container
+
+#container {
+	
+	.contact-page {
+		
+		.status-msg {
+			font-size: 14px;
+			line-height: 20px;
+		}
+		
+		form {
+			
+			input, textarea {
+				font-size: 16px;
+				line-height: 22px;
+				margin-bottom: 40px;
+			}
+			
+			.left {
+				width: 50%;
+				width: calc(50% - 20px);
+				margin-right: 20px;
+				margin-bottom: 40px;
+			}
+			
+			.right {
+				width: 50%;
+				width: calc(50% - 20px);
+				margin-left: 20px;
+				margin-bottom: 40px;
+			}
+			
+	
+		}
+	
+	}
+	
+	.flexslider {
+		
+		ol.flex-control-nav {
+			bottom: 40px;
+		}
+	
+	}
+	
+	.about-intro {
+		
+		h2 {
+			font-size: 20px;
+			line-height: 20px;
+		}
+		
+	}
+	
+	.team {
+		
+		
+		
+		.team-photo {
+			margin-bottom: 40px;
+		}
+		
+		h4 {
+			font-size: 18px;
+			line-height: 18px;
+		}
+		
+		h5 {
+			font-size: 16px;
+			line-height: 16px;
+		}
+		
+	}
+	
+	.single-work {
+		
+		h2 {
+			font-size: 20px;
+			line-height: 20px;
+		}
+		
+		h3 {
+			font-size: 18px;
+			line-height: 18px;
+		}
+		
+		.left {
+			width: 50%;
+			width: calc(50% - 20px);
+			margin-right: 20px;
+			margin-bottom: 0;
+		}
+		
+		.right {
+			width: 50%;
+			width: calc(50% - 20px);
+			margin-left: 20px;
+			
+			.technologies-used {
+				padding: 30px 40px;
+			}
+			
+		}
+	
+	}
+	
+	footer {
+		padding: 40px;
+		
+		.copyright {
+			
+			p {
+				font-size: 16px;
+				line-height: 22px;
+			}
+			
+		}
+		
+		ul.footer-nav {
+			
+			li {
+				font-size: 16px;
+				line-height: 16px;
+				margin-right: 7.5px;
+				padding-right: 7.5px;
+				
+				a {
+					font-size: 16px;
+					line-height: 16px;
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+	header {
+		padding: 40px;
+		
+		nav {
+			right: 40px;
+			
+			ul {
+				
+				li {
+					
+					a {
+						font-size: 16px;
+						line-height: 16px;
+						margin: 0 9px;
+					}
+					
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+	.portfolio-blocks {
+		
+		.block {
+			
+			&.work-item {
+				
+				.work-title {
+					top: 40px;
+					left: 40px;
+				}
+			
+			}
+			
+		}
+		
+	}
+
+}

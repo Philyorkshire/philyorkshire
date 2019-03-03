@@ -1,0 +1,70 @@
+$white: #ffffff;
+$grey:	#f1f1f1;
+$black:	#000000;
+$brand-green: #cfba69;
+$brand-dark: #183540;
+$text:	#808080;
+
+// Fonts
+
+$lato: 'Lato', sans-serif;
+
+// mix-ins
+@mixin transition() {
+	transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	-webkit-transition: all .15s ease-in-out;
+	-ms-transition: all .15s ease-in-out;
+	backface-visibility: hidden;
+}
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  //overflow: visible;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+}
+
+@mixin center-vertical() {
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+}
+
+@mixin center-horizontal() {
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	position: absolute;
+	left: 50%;
+}
+
+@mixin center-center() {
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}

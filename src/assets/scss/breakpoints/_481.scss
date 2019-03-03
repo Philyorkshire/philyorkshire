@@ -1,0 +1,28 @@
+// 481 styles
+
+// container
+
+#container {
+	
+	header {
+		
+		h1.logo {
+			margin: 0;
+			float: left;
+		}
+	
+	}
+	
+	.flexslider {
+		
+		ul.slides {
+			
+			li {
+				@include aspect-ratio(1024,400);
+			}
+		
+		}
+	
+	}
+
+}
