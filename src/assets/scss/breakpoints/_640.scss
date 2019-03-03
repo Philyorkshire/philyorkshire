@@ -1,0 +1,38 @@
+// 640 styles
+
+.padded {
+	padding: 30px;
+}
+
+// container
+
+#container {
+	
+	header {
+		
+		h1.logo {
+			margin: 0;
+			float: left;
+		}
+	
+	}
+	
+	.portfolio-blocks {
+		
+		.block {
+			width: 50%;
+			
+			&.work-item {
+				
+				.work-title {
+					top: 30px;
+					left: 30px;
+				}
+			
+			}
+			
+		}
+		
+	}
+
+}
