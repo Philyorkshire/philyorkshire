@@ -6,7 +6,7 @@ class Contact extends Component {
 
     constructor(props) {
         super(props);
-
+        
         this.state = {
             name: {
                 state: 'untouched',
@@ -78,7 +78,7 @@ class Contact extends Component {
         );
     }
 
-    handleFormSubmit(event) {
+    handleFormSubmit = (event) => {
         event.preventDefault();
     }
 
@@ -114,7 +114,7 @@ class Contact extends Component {
         });
     }
 
-    handleMessage = (e) =>  {
+    handleMessage = (e) => {
         let value = e.target.value;
         let state = value ? 'valid' : 'invalid';
 
