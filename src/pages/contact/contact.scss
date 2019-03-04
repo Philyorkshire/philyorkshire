@@ -1,0 +1,13 @@
+input[type=submit] {
+
+    cursor: pointer;
+
+    &.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
+
+.center {
+    text-align: center;
+}
