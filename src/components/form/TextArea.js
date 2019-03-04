@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import './textarea.scss';
 
 class TextArea extends Component {
 
     render() {
         return (
-            <textarea id={this.props.name}
+            <textarea 
+                className={this.props.state}
+                id={this.props.name}
                 name={this.props.name}
                 value={this.props.value}
                 placeholder={this.props.placeholder}
