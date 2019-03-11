@@ -1,6 +1,42 @@
 
 
 const WorkItems = [{
+	"name": "SurveyMe",
+	"img": "assets/img/survey-me/survey-me.jpg",
+	"bcolor": "#543290",
+	"id": 6,
+	"slug": "survey-me",
+	"slides":[ "../assets/img/sws/slide-01.png", "../assets/img/sws/slide-02.png", "../assets/img/sws/slide-03.png" ],
+	"brief": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu ligula id nulla varius dapibus eget a tortor. Nunc tincidunt enim elementum leo efficitur euismod. Phasellus fermentum lobortis tincidunt. Suspendisse semper dolor ac enim convallis, sed imperdiet odio cursus. Praesent luctus eleifend magna, eget suscipit nisi auctor at. Vestibulum aliquam pharetra leo a laoreet. Pellentesque nec nisi vitae lectus congue iaculis eu non tortor. Nam nec faucibus purus. Nullam bibendum vel lorem a condimentum.",
+	"solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu ligula id nulla varius dapibus eget a tortor. Nunc tincidunt enim elementum leo efficitur euismod. Phasellus fermentum lobortis tincidunt. Suspendisse semper dolor ac enim convallis, sed imperdiet odio cursus. Praesent luctus eleifend magna, eget suscipit nisi auctor at. Vestibulum aliquam pharetra leo a laoreet. Pellentesque nec nisi vitae lectus congue iaculis eu non tortor. Nam nec faucibus purus. Nullam bibendum vel lorem a condimentum.",
+	"url": null,
+	"skills": ["Angular","HTML","CSS","JavaScript", "SCSS","Adobe Creative Cloud"]
+
+},{
+	"name": "Hitachi Capital",
+	"img": "assets/img/hitachi/hitachi.jpg",
+	"bcolor": "#d40000",
+	"id": 7,
+	"slug": "hitachi-capital",
+	"slides":[ "../assets/img/sws/slide-01.png", "../assets/img/sws/slide-02.png", "../assets/img/sws/slide-03.png" ],
+	"brief": "At Hitachi I was placed in the IDS squad responsible for delivering the ACS Self Service loan functionality to their existing customer portal. ACS is a new piece of functionality for existing Hitachi customers to be able to apply for a top up loan which would settle an existing personal loan agreement and begin a new agreement with the topped up funds. This was an integral part of functionality for customers as it meant that they only had one direct debit per month with Hitachi rather than two if they applied for a fresh loan.",
+	"solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu ligula id nulla varius dapibus eget a tortor. Nunc tincidunt enim elementum leo efficitur euismod. Phasellus fermentum lobortis tincidunt. Suspendisse semper dolor ac enim convallis, sed imperdiet odio cursus. Praesent luctus eleifend magna, eget suscipit nisi auctor at. Vestibulum aliquam pharetra leo a laoreet. Pellentesque nec nisi vitae lectus congue iaculis eu non tortor. Nam nec faucibus purus. Nullam bibendum vel lorem a condimentum.",
+	"url": "my.hpf.co.uk",
+	"skills": ["AngularJS","HTML","CSS","JavaScript", "SCSS","Jasmine", "JIRA","Adobe Creative Cloud"]
+
+},{
+	"name": "PDP",
+	"img": "assets/img/pdp/pdp.jpg",
+	"bcolor": "#006d74",
+	"id": 7,
+	"slug": "pdp",
+	"slides":[ "../assets/img/sws/slide-01.png", "../assets/img/sws/slide-02.png", "../assets/img/sws/slide-03.png" ],
+	"brief": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu ligula id nulla varius dapibus eget a tortor. Nunc tincidunt enim elementum leo efficitur euismod. Phasellus fermentum lobortis tincidunt. Suspendisse semper dolor ac enim convallis, sed imperdiet odio cursus. Praesent luctus eleifend magna, eget suscipit nisi auctor at. Vestibulum aliquam pharetra leo a laoreet. Pellentesque nec nisi vitae lectus congue iaculis eu non tortor. Nam nec faucibus purus. Nullam bibendum vel lorem a condimentum.",
+	"solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu ligula id nulla varius dapibus eget a tortor. Nunc tincidunt enim elementum leo efficitur euismod. Phasellus fermentum lobortis tincidunt. Suspendisse semper dolor ac enim convallis, sed imperdiet odio cursus. Praesent luctus eleifend magna, eget suscipit nisi auctor at. Vestibulum aliquam pharetra leo a laoreet. Pellentesque nec nisi vitae lectus congue iaculis eu non tortor. Nam nec faucibus purus. Nullam bibendum vel lorem a condimentum.",
+	"url": "pdp.uk",
+	"skills": ["Angular","HTML","CSS","JavaScript", "SCSS","Adobe Creative Cloud"]
+
+},{
 	"name": "Millington Adams",
 	"img": "assets/img/millington/millington-adams.jpg",
 	"bcolor": "#e3e1df",
@@ -57,8 +93,20 @@ const WorkItems = [{
 	"slides":[ "../assets/img/sws/slide-01.png", "../assets/img/sws/slide-02.png", "../assets/img/sws/slide-03.png" ],
 	"brief": "Speak Woman Speak (SWS) required a website to reflect their ethos and what they offer the community of Leeds. They wanted a lightweight easy-to-use platform that would allow them to amend any content and images themselves once more information became available to the public. SWS approached us with a few existing assets that a previous designer had worked on with them. This included a business card and logo that we were able to use.",
 	"solution": "At Philyorkshire we took these assets and picked a variety of elements that we would use to base our website designs upon. Once this design task had been completed we developed a bespoke solution using the WordPress CMS that allowed the client to manage their expectations.",
-	"url": "speakwomanspeak.brandonwhitaker.co.uk",
+	"url": null,
 	"skills": ["WordPress","HTML","CSS","JavaScript", "jQuery", "PHP","SASS","SQL Databases","Adobe Creative Cloud"]
+
+},{
+	"name": "Buxbo",
+	"img": "assets/img/buxbo/buxbo.jpg",
+	"bcolor": "#ff9300",
+	"id": 7,
+	"slug": "pdp",
+	"slides":[ "../assets/img/sws/slide-01.png", "../assets/img/sws/slide-02.png", "../assets/img/sws/slide-03.png" ],
+	"brief": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu ligula id nulla varius dapibus eget a tortor. Nunc tincidunt enim elementum leo efficitur euismod. Phasellus fermentum lobortis tincidunt. Suspendisse semper dolor ac enim convallis, sed imperdiet odio cursus. Praesent luctus eleifend magna, eget suscipit nisi auctor at. Vestibulum aliquam pharetra leo a laoreet. Pellentesque nec nisi vitae lectus congue iaculis eu non tortor. Nam nec faucibus purus. Nullam bibendum vel lorem a condimentum.",
+	"solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu ligula id nulla varius dapibus eget a tortor. Nunc tincidunt enim elementum leo efficitur euismod. Phasellus fermentum lobortis tincidunt. Suspendisse semper dolor ac enim convallis, sed imperdiet odio cursus. Praesent luctus eleifend magna, eget suscipit nisi auctor at. Vestibulum aliquam pharetra leo a laoreet. Pellentesque nec nisi vitae lectus congue iaculis eu non tortor. Nam nec faucibus purus. Nullam bibendum vel lorem a condimentum.",
+	"url": "pdp.uk",
+	"skills": ["Angular","Ionic/Cordova","HTML","CSS","JavaScript", "SCSS","Adobe Creative Cloud"]
 
 }]
 

@@ -34,12 +34,12 @@ class About extends Component {
                         <h4>Brandon Whitaker</h4>
                         <h5>Front-End developer</h5>
 
-                        <p>Leading from a background in Front End Development, Brandon has worked with a variety of different clients and industry sectors ranging from automobiles, craft ales, property and e-commerce.<br /><br /> As a digital developer Brandon's focus are front end technologies including; HTML, CSS, SASS/LESS, JavaScript, jQuery, PHP, WordPress and AngularJS. This allows him to develop bespoke solutions that are concise and confident for our clients.</p>
+                        <p>A highly skilled Front End Developer with over 6 years’ experience working with a wide range of customers for a number of different industry sectors. Brandon has worked in a variety of Agile environments.<br /><br /> As a Front End developer Brandon's focus includes; HTML, CSS, SASS/LESS, JavaScript, jQuery, Angular, AngularJS and Typescript.</p>
 
                         <ul className="social-media">
                             <li><a href="https://uk.linkedin.com/in/brandon-whitaker-0033a750"><i className="fab fa-linkedin" aria-hidden="true"></i>&nbsp;</a></li>
                             <li><a href="https://bitbucket.org/brandudno22"><i className="fab fa-bitbucket" aria-hidden="true"></i>&nbsp;</a></li>
-                            <li><a href="https://github.com/brandudno23"><i className="fab fa-github" aria-hidden="true"></i>&nbsp;</a></li>
+                            <li><a href="https://github.com/brandudno"><i className="fab fa-github" aria-hidden="true"></i>&nbsp;</a></li>
                         </ul>
                     </div>
                 </div>

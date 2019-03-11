@@ -15,7 +15,7 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="portfolio-blocks">
+            <div className="portfolio-blocks home">
 
                 <div className="block block-1 intro-block" >
 
@@ -38,11 +38,15 @@ class Home extends Component {
 
     generateWorkItemBoxes() {
         let workBoxes = [];
+        let i = 0;
 
         this.state.workItems.forEach(workItem => {
+            if(i === 3) return;
+
             workBoxes.push(
                 <WorkBox Work={workItem} key={workItem.id} />
             )
+            i++;
         });
 
         return workBoxes;
